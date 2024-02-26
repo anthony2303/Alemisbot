@@ -11,7 +11,7 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
+  ['525625060788', '👑 Mystic - Creador 👑', true],
   ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
   ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
   ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
@@ -43,11 +43,11 @@ global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
 global.packname = 'Sticker';
-global.author = 'The Mystic - Bot';
-global.wm = 'The Mystic - Bot';
-global.titulowm = 'The Mystic - Bot';
-global.titulowm2 = `The Mystic - Bot`
-global.igfg = 'The Mystic - Bot';
+global.author = 'Capibot Premium';
+global.wm = 'Capibot Premium';
+global.titulowm = 'Capibot Premium';
+global.titulowm2 = `Capibot Premium`
+global.igfg = 'Capibot Premium';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -69,8 +69,8 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
-global.gt = 'The Mystic - Bot';
-global.mysticbot = 'The Mystic - Bot';
+global.gt = 'Capibot Premium';
+global.mysticbot = 'Capibot Premium';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[ ⏳ ] Cargando...*';
