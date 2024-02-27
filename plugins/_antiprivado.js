@@ -8,7 +8,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   const chat = global.db.data.chats[m.chat];
   const bot = global.db.data.settings[this.user.jid] || {};
   if (bot.antiPrivate && !isOwner && !isROwner) {
-    await m.reply(`_*< ANTI-PRIVADO />*_\n\n*[ ℹ️ ] La función antiprivado está habilitada, por lo tanto serás bloqueado.*`, false, {mentions: [m.sender]});
+    await m.reply(`_*< ANTI-PRIVADO />*_\n\n*HOLA, SOY CAPIBOT PREMIUM, PARA HABLAR AL PRIVADO SOLO ES POSIBLE CON MI CREADOR, SI QUIERES ALQUILARME ENTRA AL SIGUIENTE GRUPO* https://chat.whatsapp.com/IkmoGgRSDi46dOTiH1EF74`, false, {mentions: [m.sender]});
     await this.updateBlockStatus(m.chat, 'block');
   }
   return !1;
