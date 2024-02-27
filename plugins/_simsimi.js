@@ -19,7 +19,7 @@ handler.before = async (m) => {
       const reis = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=' + textodem);
       const resu = await reis.json();
       const nama = m.pushName || '1';
-      const api = await fetch('http://api.simsimi.com/request.p?key=your_paid_key&lc=en&ft=1.0&text=hi' + nama + '&msg=' + resu[0][0][0]);
+      const api = await fetch('http://api.brainshop.ai/get?bid=153868&key=rcKonOgrUFmn5usX&uid=' + nama + '&msg=' + resu[0][0][0]);
       const res = await api.json();
       const reis2 = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=' + res.cnt);
       const resu2 = await reis2.json();
