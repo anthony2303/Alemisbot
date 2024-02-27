@@ -1,6 +1,6 @@
 // TheMystic-Bot-MD@BrunoSobrino - _antitoxic.js
 
-const toxicRegex = /puto|puta|rata|estupido|imbecil|rctmre|mrd|verga|vrga|maricon/i;
+const toxicRegex = /puto|puta|pto|hdp|careverga|malparido|malparida|rata|estupido|imbecil|rctmre|mrd|verga|vrga|maricon/i;
 
 export async function before(m, {isAdmin, isBotAdmin, isOwner}) {
   if (m.isBaileys && m.fromMe) {
