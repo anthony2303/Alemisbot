@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏
+    const str = `CAPIBOT PREMIUM
 
  ▢ *Hola,* ${taguser}
 
@@ -31,7 +31,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ *Experiencia:* ${exp}
  ▢ *Rango:* ${role}
  ▢ *Diamantes:* ${limit}
- ▢ *MysticCoins:* ${money}
+ ▢ *CapiCoins:* ${money}
  ▢ *Tokens:* ${joincount}
  ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
@@ -59,15 +59,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _bot_ (sin prefijo)
 
 
- _*< SUB-BOTS />*_
-
-  ▢ _${usedPrefix}serbot --code_
-  ▢ _${usedPrefix}serbot_
-  ▢ _${usedPrefix}deletebot_
-  ▢ _${usedPrefix}token_
-  ▢ _${usedPrefix}stop_
-  ▢ _${usedPrefix}bots_
-  ▢
+ _*< CONFIGURACION-BOTS />*_
+  
   ▢ _${usedPrefix}enable restrict_
   ▢ _${usedPrefix}disable restrict_
   ▢ _${usedPrefix}enable autoread_
@@ -360,30 +353,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}igstalk *<usr>*_
   ▢ _${usedPrefix}tiktokstalk *<usr>*_
   ▢ _${usedPrefix}img *<txt>*_
-
-
- _*< ECONOMÍA />*_
-
-  ▢ _${usedPrefix}adventure_
-  ▢ _${usedPrefix}cazar_
-  ▢ _${usedPrefix}cofre_
-  ▢ _${usedPrefix}balance_
-  ▢ _${usedPrefix}claim_
-  ▢ _${usedPrefix}heal_
-  ▢ _${usedPrefix}lb_
-  ▢ _${usedPrefix}levelup_
-  ▢ _${usedPrefix}myns_
-  ▢ _${usedPrefix}perfil_
-  ▢ _${usedPrefix}work_
-  ▢ _${usedPrefix}minar_
-  ▢ _${usedPrefix}minar2_
-  ▢ _${usedPrefix}buy_
-  ▢ _${usedPrefix}buyall_
-  ▢ _${usedPrefix}verificar_
-  ▢ _${usedPrefix}robar *<cant> <@tag>*_
-  ▢ _${usedPrefix}crime
-  ▢ _${usedPrefix}transfer *<tipo> <cant> <@tag>*_
-  ▢ _${usedPrefix}unreg *<sn>*_
 
 
  _*< STICKERS />*_
