@@ -42,7 +42,7 @@ global.owner = [
 global.suittag = ['525625060788'];
 global.prems = ['525625060788'];
 
-global.packname = 'Sticker';
+global.packname = 'Anthony Ventas';
 global.author = 'Capibot Premium';
 global.wm = 'Capibot Premium';
 global.titulowm = 'CapiBot Premium';
