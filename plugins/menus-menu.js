@@ -42,40 +42,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}menuanimes_
   ▢ _${usedPrefix}labiblia_ (🔞)
 
- 
- _*< SOBRE EL BOT />*_
-
-  ▢ _${usedPrefix}terminosycondiciones_
-  ▢ _${usedPrefix}grupos_
-  ▢ _${usedPrefix}estado_
-  ▢ _${usedPrefix}infobot_
-  ▢ _${usedPrefix}speedtest_
-  ▢ _${usedPrefix}donar_
-  ▢ _${usedPrefix}owner_
-  ▢ _${usedPrefix}script_
-  ▢ _${usedPrefix}reporte *<txt>*_
-  ▢ _${usedPrefix}join *<wagp_url>*_
-  ▢ _${usedPrefix}fixmsgespera_
-  ▢ _bot_ (sin prefijo)
-
-
- _*< CONFIGURACION-BOTS />*_
-  
-  ▢ _${usedPrefix}enable restrict_
-  ▢ _${usedPrefix}disable restrict_
-  ▢ _${usedPrefix}enable autoread_
-  ▢ _${usedPrefix}disable autoread_
-  ▢ _${usedPrefix}enable antispam_
-  ▢ _${usedPrefix}disable antispam_
-  ▢ _${usedPrefix}enable anticall_
-  ▢ _${usedPrefix}disable anticall_
-  ▢ _${usedPrefix}enable modoia_
-  ▢ _${usedPrefix}disable modoia_
-  ▢ _${usedPrefix}enable audios_bot_
-  ▢ _${usedPrefix}disable audios_bot_
-  ▢ _${usedPrefix}enable antiprivado_
-  ▢ _${usedPrefix}disable antiprivado_
-  
 
  _*< JUEGOS />*_
 
@@ -263,7 +229,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}piropo_
   ▢ _${usedPrefix}consejo_
   ▢ _${usedPrefix}fraseromantica_
-  ▢ _${usedPrefix}historiaromantica_
 
 
  _*< ALEATORIO />*_
@@ -329,7 +294,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}delchatgpt
   ▢ _${usedPrefix}gptvoz *<txt>*_
   ▢ _${usedPrefix}dall-e *<txt>*_
-  ▢ _${usedPrefix}spamwa *num|txt|cant>*_
   ▢ _${usedPrefix}tamaño *<cant> <img / video>*_
   ▢ _${usedPrefix}readviewonce *<img / video>*_
   ▢ _${usedPrefix}clima *<país> <ciudad>*_
@@ -382,78 +346,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}dado_
   ▢ _${usedPrefix}wm *<packname> <autor>*_
   ▢ _${usedPrefix}stickermarker *<efecto> <img>*_
-  ▢ _${usedPrefix}stickerfilter *<efecto> <img>*_
-
-
- _*< PROPIETARIO Y MODS. />*_
-
-  ▢ _> *<funcion>*_
-  ▢ _=> *<funcion>*_
-  ▢ _$ *<funcion>*_
-  ▢ _${usedPrefix}dsowner_
-  ▢ _${usedPrefix}setprefix *<prefijo>*_
-  ▢ _${usedPrefix}resetprefix_
-  ▢ _${usedPrefix}autoadmin_
-  ▢ _${usedPrefix}grouplist_
-  ▢ _${usedPrefix}chetar_
-  ▢ _${usedPrefix}leavegc_
-  ▢ _${usedPrefix}cajafuerte_
-  ▢ _${usedPrefix}blocklist_
-  ▢ _${usedPrefix}addowner *<@tag / num>*_
-  ▢ _${usedPrefix}delowner *<@tag / num>*_
-  ▢ _${usedPrefix}block *<@tag / num>*_
-  ▢ _${usedPrefix}unblock *<@tag / num>*_
-  ▢ _${usedPrefix}enable *restrict*_
-  ▢ _${usedPrefix}disable *restrict*_
-  ▢ _${usedPrefix}enable *autoread*_
-  ▢ _${usedPrefix}disable *autoread*_
-  ▢ _${usedPrefix}enable *public*_
-  ▢ _${usedPrefix}disable *public*_
-  ▢ _${usedPrefix}enable *pconly*_
-  ▢ _${usedPrefix}disable *pconly*_
-  ▢ _${usedPrefix}enable *gconly*_
-  ▢ _${usedPrefix}disable *gconly*_
-  ▢ _${usedPrefix}enable *anticall*_
-  ▢ _${usedPrefix}disable *anticall*_
-  ▢ _${usedPrefix}enable *antiprivado*_
-  ▢ _${usedPrefix}disable *antiprivado*_
-  ▢ _${usedPrefix}enable *modejadibot*_
-  ▢ _${usedPrefix}disable *modejadibot*_
-  ▢ _${usedPrefix}enable *audios_bot*_
-  ▢ _${usedPrefix}disable *audios_bot*_
-  ▢ _${usedPrefix}enable *antispam*_
-  ▢ _${usedPrefix}disable *antispam*_
-  ▢ _${usedPrefix}msg *<txt>*_
-  ▢ _${usedPrefix}banchat_
-  ▢ _${usedPrefix}unbanchat_
-  ▢ _${usedPrefix}resetuser *<@tag>*_
-  ▢ _${usedPrefix}banuser *<@tag>*_
-  ▢ _${usedPrefix}unbanuser *<@tag>*_
-  ▢ _${usedPrefix}dardiamantes *<@tag> <cant>*_
-  ▢ _${usedPrefix}añadirxp *<@tag> <cant>*_
-  ▢ _${usedPrefix}banuser *<@tag>*_
-  ▢ _${usedPrefix}bc *<txt>*_
-  ▢ _${usedPrefix}bcchats *<txt>*_
-  ▢ _${usedPrefix}bcgc *<txt>*_
-  ▢ _${usedPrefix}bcgc2 *<aud>*_
-  ▢ _${usedPrefix}bcgc2 *<vid>*_
-  ▢ _${usedPrefix}bcgc2 *<img>*_
-  ▢ _${usedPrefix}bcbot *<txt>*_
-  ▢ _${usedPrefix}cleartpm_
-  ▢ _${usedPrefix}restart_
-  ▢ _${usedPrefix}update_
-  ▢ _${usedPrefix}banlist_
-  ▢ _${usedPrefix}addprem *<@tag> <tiempo>*_
-  ▢ _${usedPrefix}addprem2 *<@tag> <tiempo>*_
-  ▢ _${usedPrefix}addprem3 *<@tag> <tiempo>*_
-  ▢ _${usedPrefix}addprem4 *<@tag> <tiempo>*_
-  ▢ _${usedPrefix}delprem *<@tag>*_
-  ▢ _${usedPrefix}listcmd_
-  ▢ _${usedPrefix}setppbot *<responder a img>*_
-  ▢ _${usedPrefix}addcmd *<txt>*_
-  ▢ _${usedPrefix}delcmd_
-  ▢ _${usedPrefix}saveimage_
-  ▢ _${usedPrefix}viewimage_`.trim();
+  ▢ _${usedPrefix}stickerfilter *<efecto> <img>*_`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
