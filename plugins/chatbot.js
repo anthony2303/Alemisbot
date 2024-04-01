@@ -28,6 +28,16 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 }
 
+if (/^Hola|hola|Comprar bot|Quiero un bot|quiero un bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`¡Hola, @user! 🌟 ¡Qué alegría verte por aquí! Espero que estés genial. 
+Soy Capibot Premium y estoy aquí para cumplir todos tus deseos. ¿Quieres descubrir todo lo que puedo ofrecerte? 
+¡Simplemente escribe *"Menu de Ventas"* y prepárate para quedar impresionado! 💼✨`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
 if (/^capi bot|capibot|capi$/i.test(m.text) ) { //sin prefijo 
     let teks = `
 ${pickRandom([`¡Descubre CapiBot Premium! 💼🌟 Especialmente diseñado para potenciar tus grupos de Ventas. 🛍️ Los comandos más comunes incluyen stickers, menciones, bienvenidas, despedidas, música y juegos. 🎶🎮 ¡Un Bot activo las 24 horas, los 7 días de la semana! 🕒
