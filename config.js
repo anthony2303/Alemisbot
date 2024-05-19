@@ -11,26 +11,28 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5219617138507', '👑 CapiPremium - Creador 👑', true],
+  ['5219181527190', '👑 Brysubot - Creador 👑', true],
 ];
 
-global.suittag = ['5219617138507'];
-global.prems = ['5219617138507'];
+global.suittag = ['5219181527190'];
+global.prems = ['5219181527190'];
 
-global.packname = 'Brysubot';
-global.author = 'Brysubot';
-global.wm = 'Brysubot';
-global.titulowm = 'Brysubot';
-global.titulowm2 = `Brysubot`
-global.igfg = 'Brysubot';
+global.packname = 'BRYSUBOT';
+global.author = 'BRYSUBOT';
+global.wm = 'BRYSUBOT';
+global.titulowm = 'BRYSUBOT';
+global.titulowm2 = `BRYSUBOT`
+global.igfg = 'BRYSUBOT';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
-global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
-global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
+global.imagen2 = fs.readFileSync('./src/+18.jpg');
+global.imagen3 = fs.readFileSync('./src/sinfoto.jpg');
 global.imagen4 = fs.readFileSync('./Menu.png');
-global.imagen5 = fs.readFileSync('./src/+18.jpg');
+global.imagen5 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
+global.imagen7 = fs.readFileSync('./src/avatar_contact.png');
+global.imagen8 = fs.readFileSync('./Menu2.png');
 
 global.mods = [];
 
@@ -43,15 +45,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nBrysubot;
-global.gt = 'Brysubot';
-global.mysticbot = 'Brysubot';
-global.md = 'wa.me/5219617138507';
-global.mysticbot = 'wa.me/5219617138507';
+global.wm2 = `${dia} ${fecha}\nBRYSUBOT`;
+global.gt = 'BRYSUBOT';
+global.mysticbot = 'BRYSUBOT';
+global.md = 'wa.me/5219181527190';
+global.mysticbot = 'wa.me/5219181527190';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '5219617138507';
+global.nomorown = '5219181527190';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
