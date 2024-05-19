@@ -11,18 +11,18 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5215625060788', '👑 CapiPremium - Creador 👑', true],
+  ['5219617138507', '👑 CapiPremium - Creador 👑', true],
 ];
 
-global.suittag = ['5215625060788'];
-global.prems = ['5215625060788'];
+global.suittag = ['5219617138507'];
+global.prems = ['5219617138507'];
 
-global.packname = 'Anthony Ventas';
-global.author = 'Capibot Premium';
-global.wm = 'Capibot Premium';
-global.titulowm = 'CapiBot Premium';
-global.titulowm2 = `Capibot Premium`
-global.igfg = 'Capibot Premium';
+global.packname = 'Brysubot';
+global.author = 'Brysubot';
+global.wm = 'Brysubot';
+global.titulowm = 'Brysubot';
+global.titulowm2 = `Brysubot`
+global.igfg = 'Brysubot';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -43,15 +43,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nCapibot Premium`;
-global.gt = 'Capibot Premium';
-global.mysticbot = 'CapiBot Premium';
-global.md = 'wa.me/5215625060788';
-global.mysticbot = 'wa.me/5215625060788';
+global.wm2 = `${dia} ${fecha}\nBrysubot;
+global.gt = 'Brysubot';
+global.mysticbot = 'Brysubot';
+global.md = 'wa.me/5219617138507';
+global.mysticbot = 'wa.me/5219617138507';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '5215625060788';
+global.nomorown = '5219617138507';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
