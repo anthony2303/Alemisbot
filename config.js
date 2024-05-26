@@ -13,6 +13,7 @@ global.confirmCode = ""
 global.owner = [
 ["8123100211", 'Alemi', true], //owner Alemi
 ["8140135282", 'AlemiBot', true], //subowner Alemi
+  ["525625060788"]]
 
 global.suittag = ['5219181527190'];
 global.prems = ['5219181527190'];
