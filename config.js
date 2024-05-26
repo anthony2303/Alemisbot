@@ -11,8 +11,8 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5219181527190', '👑 Brysubot - Creador 👑', true],
-];
+["8123100211", 'Alemi', true], //owner Alemi
+["8140135282", 'AlemiBot', true], //subowner Alemi
 
 global.suittag = ['5219181527190'];
 global.prems = ['5219181527190'];
